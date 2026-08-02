@@ -2,7 +2,7 @@ import { COLORS, GLASS_ON_LIGHT, blobStyle } from "../theme.js";
 
 export default function Contact() {
   return (
-    <div style={{ position: "relative", background: COLORS.paper, padding: "70px 20px", minHeight: "60vh", overflow: "hidden" }}>
+  <div style={{ position: "relative", background: COLORS.paper, padding: "70px 20px", flex: 1, overflow: "hidden" }}>
       <div style={blobStyle("20%", "20%", 360, COLORS.blue, 0.16)} />
       <div style={blobStyle("50%", "70%", 300, COLORS.cyan, 0.16)} />
       <div style={{ maxWidth: 620, margin: "0 auto", textAlign: "center", position: "relative" }}>

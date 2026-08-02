@@ -93,18 +93,25 @@ export default function Home({ setPage }) {
                 overflow: "hidden",
               }}
             >
+              <img
+                src="/photo.jpeg"
+                alt="Portrait"
+                style={{
+                  position: "relative",
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  borderRadius: 16,
+                }}
+              />
               <div
                 style={{
                   position: "absolute",
                   inset: 0,
-                  background: `linear-gradient(160deg, rgba(255,122,41,0.22), rgba(255,183,77,0.10))`,
+                  background: `linear-gradient(160deg, rgba(255,122,41,0.12), transparent 40%)`,
+                  pointerEvents: "none",
                 }}
               />
-              <p style={{ position: "relative", fontFamily: "'Inter', sans-serif", fontSize: 13, color: "#FFE3C2", textAlign: "center", padding: "0 16px", letterSpacing: "0.03em" }}>
-                YOUR PHOTO HERE
-                <br />
-                <span style={{ fontSize: 11, color: "#D8B896" }}>upload it and I'll drop it in</span>
-              </p>
             </div>
           </div>
         </div>

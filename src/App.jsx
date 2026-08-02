@@ -9,7 +9,7 @@ import Footer from "./components/Footer.jsx";
 export default function App() {
   const [page, setPage] = useState("home");
   return (
-    <div style={{ fontFamily: "'Inter', sans-serif", minHeight: "100vh" }}>
+    <div style={{ fontFamily: "'Inter', sans-serif", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Mono:wght@400;500&family=Fustat:wght@500;700&display=swap');
         * { box-sizing: border-box; }
@@ -21,10 +21,12 @@ export default function App() {
         }
       `}</style>
       <Nav page={page} setPage={setPage} />
-      {page === "home" && <Home setPage={setPage} />}
-      {page === "work" && <Work />}
-      {page === "about" && <About />}
-      {page === "contact" && <Contact />}
+      <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
+        {page === "home" && <Home setPage={setPage} />}
+        {page === "work" && <Work />}
+        {page === "about" && <About />}
+        {page === "contact" && <Contact />}
+      </div>
       <Footer />
     </div>
   );
