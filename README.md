@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Yoanna Udunna — Portfolio
 
 ## Run locally
@@ -35,3 +36,7 @@ No database or backend needed for this site — it's fully static.
 Replace the "YOUR PHOTO HERE" placeholder block in `src/App.jsx` (Home component,
 hero section) with an `<img src="..." />` tag. Drop the image file in a `public/`
 folder and reference it as `/your-photo.jpg`.
+=======
+# Portfolio-site
+A portfolio Website
+>>>>>>> 75b056ca5c5a3b496f137c51739ac2e19d418f7d
