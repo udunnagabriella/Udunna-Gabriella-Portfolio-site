@@ -13,7 +13,7 @@ export default function Footer() {
         borderTop: "1px solid rgba(255,183,77,0.2)",
       }}
     >
-      © {new Date().getFullYear()} YOUR NAME — SOCIAL MEDIA & COPYWRITING
+      © {new Date().getFullYear()} UDUNNA GABREILLA— SOCIAL MEDIA & COPYWRITING
     </footer>
   );
 }

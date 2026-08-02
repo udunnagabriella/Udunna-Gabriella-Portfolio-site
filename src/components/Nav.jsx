@@ -39,7 +39,7 @@ export default function Nav({ page, setPage }) {
             letterSpacing: "0.02em",
           }}
         >
-          YOUR NAME
+         UDUNNA GABRIELLA
         </button>
         <div style={{ display: "flex", gap: 22, fontFamily: "'Inter', sans-serif", fontSize: 13, letterSpacing: "0.08em" }}>
           {items.map((it) => (

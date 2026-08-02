@@ -13,7 +13,7 @@ export default function Contact() {
             Open to freelance social media management, copywriting projects, and anything that needs a strong voice.
           </p>
           <a
-            href="mailto:youremail@example.com"
+            href="udunnagabriella@gmail.com"
             style={{
               display: "inline-block",
               background: COLORS.blue,
@@ -28,7 +28,7 @@ export default function Contact() {
               boxShadow: "0 8px 24px rgba(255,122,41,0.35)",
             }}
           >
-            youremail@example.com
+           udunnagabriella@gmail.com
           </a>
         </div>
       </div>

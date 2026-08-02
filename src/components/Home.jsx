@@ -74,7 +74,7 @@ export default function Home({ setPage }) {
                 boxShadow: "0 8px 24px rgba(255,122,41,0.4)",
               }}
             >
-              See the work →
+              See my work →
             </button>
           </div>
 
