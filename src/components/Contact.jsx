@@ -13,22 +13,26 @@ export default function Contact() {
             Open to freelance social media management, copywriting projects, and anything that needs a strong voice.
           </p>
           <a
-            href="udunnagabriella@gmail.com"
+           href="mailto:youremail@example.com"
             style={{
-              display: "inline-block",
+              display: "block",
+              width: "100%",
+              boxSizing: "border-box",
               background: COLORS.blue,
               color: COLORS.ink,
-              padding: "16px 36px",
+              padding: "16px 20px",
               fontFamily: "'Inter', sans-serif",
-              fontSize: 14,
-              letterSpacing: "0.06em",
+              fontSize: "clamp(12px, 3.5vw, 14px)",
+              letterSpacing: "0.03em",
               textDecoration: "none",
               textTransform: "uppercase",
               borderRadius: 12,
               boxShadow: "0 8px 24px rgba(255,122,41,0.35)",
+              wordBreak: "break-word",
+              textAlign: "center",
             }}
           >
-           udunnagabriella@gmail.com
+            youremail@example.com
           </a>
         </div>
       </div>
