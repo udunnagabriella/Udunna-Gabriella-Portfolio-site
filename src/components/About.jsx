@@ -3,7 +3,7 @@ import { COLORS, GLASS_STRONG, blobStyle } from "../theme.js";
 const QA = [
   {
     q: "What's your background?",
-    a: "I'm a graduate of the Federal University of Technology, Owerri (FUTO), where I studied Agricultural and Bio-Resources Engineering and graduated with a Second Class Upper.",
+    a: "I'm a graduate of the Federal University of Technology, Owerri (FUTO), where I studied Agricultural and Bio-Systems Engineering and graduated with a Second Class Upper.",
   },
   {
     q: "So how'd you end up in social media?",

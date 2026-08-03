@@ -32,9 +32,9 @@ export default function Home({ setPage }) {
               VOL. 01 — NIGERIA
             </p>
             <h1 style={{ fontFamily: "'Inter', sans-serif", fontWeight: 800, fontSize: "clamp(42px, 8vw, 92px)", lineHeight: 0.95, margin: 0, letterSpacing: "-0.02em" }}>
-              STORIES
+             CONTENT
               <br />
-              THAT STICK.
+              THAT STICKS.
             </h1>
             <div style={{ marginTop: 28, height: 26, display: "flex", alignItems: "center", overflow: "visible" }}>
               <p
@@ -74,7 +74,7 @@ export default function Home({ setPage }) {
                 boxShadow: "0 8px 24px rgba(255,122,41,0.4)",
               }}
             >
-              See my work →
+              See my work 
             </button>
           </div>
 

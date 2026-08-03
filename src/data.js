@@ -4,17 +4,17 @@ export const TICKER = [
   "SOCIAL MEDIA MANAGER",
   "COPYWRITER",
   "CONTENT STRATEGIST",
-  "AGRIC & BIO-RESOURCES ENGINEER",
-  "READS MANGA ON THE SIDE",
-  "STILL COOKING SOMETHING UP",
+  "AGRIC & BIO-SYSTEMS ENGINEER",
+  "SCRIPT WRITER",
+  "YOUTUBE AUTOMATION",
 ];
 
 export const PROJECTS = [
    {
     tag: "",
     driveLink: "https://drive.google.com/file/d/1rV6Pt7DVE3f2fwewACoKLQNSz625hvaA/view?usp=drive_link",
-    image: "https://i.pinimg.com/736x/ff/1b/13/ff1b132d0d853c18ec74a6ac01829f53.jpg",
-    title: "Udunna Gabriella's CV",
+    image: "https://i.pinimg.com/736x/ce/7b/ca/ce7bca9eef0582fe709b8aef4520dd1b.jpg",
+    title: "My Curriculum Vitae",
    
     tools: [],
     grad: `linear-gradient(135deg, ${COLORS.blue}, ${COLORS.indigo})`,
@@ -46,7 +46,7 @@ export const PROJECTS = [
     title: "Flyers & Cover Art",
     image:"https://i.pinimg.com/736x/1e/de/59/1ede59951c6e199839a5fc68a1c4e771.jpg",
     blurb:
-      "Desinged flyers and cover art for for various clients",
+      "Designed flyers and cover art for various clients.",
     tools: ["Photoshop", "Pixart", "Canva"],
     grad: `linear-gradient(135deg, ${COLORS.cyan}, ${COLORS.indigo})`,
   },
